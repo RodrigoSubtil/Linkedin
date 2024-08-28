@@ -1,0 +1,55 @@
+.secao-sugestoes{
+    background-color: #1B2226;
+    color: #FFFFFF;
+    width: 280px;
+    height: 528px;
+    top: 76px;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.secao-sugestoes__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 4px;
+}
+
+.secao-sugestoes__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.secao-sugestoes__pessoas {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.secao-sugestoes__foto {
+    padding-right: 5px;
+}
+
+.secao-sugestoes__nome {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.secao-sugestoes__cargo {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+.secao-sugestoes__botao {
+    background: inherit;
+    padding: 5px 13px 5px 13px;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    color: #FFFFFF;
+    opacity: 90%;
+    margin-left: 53px;
+    margin-top: 2px;
+}

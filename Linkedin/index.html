@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Linkedin</title>
+        <link rel="stylesheet" href="styles/reset/reset.css">
+        <link rel="stylesheet" href="/styles/styles.gerais/styles.css">
+        <link rel="stylesheet" href="./styles/grid/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/cabecalho.css">
+        <link rel="stylesheet" href="/styles/perfil.css">       
+        <link rel="stylesheet" href="./styles/destaques.css">
+        <link rel="stylesheet" href="/styles/atividades.css">
+        <link rel="stylesheet" href="./styles/sugestoes.css">
+        <link rel="stylesheet" href="/styles/conhecidos.css">
+        <link rel="stylesheet" href="/styles/sobre.css">
+        <link rel="stylesheet" href="/styles/formacao.css">
+        <link rel="stylesheet" href="/styles/idiomas.css">
+        <link rel="stylesheet" href="/styles/experiencias.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho-container">
+                <img src="img/logo.svg" alt="Logo Linkedin">
+                <input type="search" class="cabecalho-pesquisa" placeholder="Pesquisar">
+                <ul class="cabecalho-lista">
+                    <li class="cabecalho-lista__item">
+                        <a class="cabecalho-icone" href="#">
+                            <img src="img/inicio.svg" alt="">
+                            <span class="cabecalho-icone__nome">Início</span>
+                        </a>
+                    </li>
+                    <li class="cabecalho-lista__item">
+                        <a class="cabecalho-icone" href="#">
+                            <img src="img/comunidade.svg" alt="">
+                            <span class="cabecalho-icone__nome">Minha rede</span>
+                        </a>
+                    </li>
+                    <li class="cabecalho-lista__item">
+                        <a class="cabecalho-icone" href="#">
+                            <img src="img/vagas.svg" alt="">
+                            <span class="cabecalho-icone__nome">Vagas</span>
+                        </a>
+                    </li>
+                    <li class="cabecalho-lista__item">
+                        <a class="cabecalho-icone" href="#">
+                            <img src="img/mensagens.svg" alt="">
+                            <span class="cabecalho-icone__nome">Mensagens</span>
+                        </a>
+                    </li>
+                    <li class="cabecalho-lista__item">
+                        <a class="cabecalho-icone" href="#">
+                            <img src="img/notificacoes.svg" alt="">
+                            <span class="cabecalho-icone__nome">Notificações</span>
+                        </a>
+                    </li>
+
+                    <hr class="linha">
+
+                    <li class="cabecalho-lista__item">
+                        <a class="cabecalho-icone" href="#">
+                            <img src="img/solucoes.svg" alt="">
+                            <span class="cabecalho-icone__nome">Soluções</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>  
+
+        <main class="container">
+            <div class="left-column">
+
+            <section>
+                <img src="/img/capa.svg" alt="Imagem de fundo" class="secao-perfil__capa">
+                    <div class="secao-perfil__conteudo">
+                        <div class="secao-perfil__flex">
+                            <div class="secao-perfil__primeira__coluna">
+                                <div class="secao-perfil__perfil">
+                                    <img src="/img/perfil.svg" alt="Imagem de perfil">
+                                </div>
+                                <h1 class="secao-perfil__nome">Nome Sobrenome</h1>
+                                <h2 class="secao-perfil__subtitulo">Desenvolvedora | HTML | CSS | Typescript | Node</h2>
+                                <span class="secao-perfil__rashtag">Fala sobre #javascript, #frontend, #reactjs, e #backend</span>
+                                <div class="secao-perfil__informacoes">
+                                    <span class="secao-perfil__informacoes__lugar">Cidade, estado e país</span>
+                                    <span class="secao-perfil__informacoes__pontinho">•</span>
+                                    <span class="secao-perfil__informacoes__contato">informações de contato</span>
+                                </div>
+                                <div class="secao-perfil__informacoes">
+                                    <span class="secao-perfil__informacoes__conexoes">300 seguidores</span>
+                                    <span class="secao-perfil__informacoes__pontinho">•</span>
+                                    <span class="secao-perfil__informacoes__conexoes">250 conexões</span>
+                                </div>
+                                <div class="secao-perfil__botoes">
+                                    <a class="secao-perfil__botoes__mensagem" href="#">Mensagem</a>
+                                    <a class="secao-perfil__botoes__mais" href="#">Mais</a>
+                                </div>
+                            </div>
+                            <div class="secao-perfil__segunda__coluna">
+                                <ul>
+                                    <li class="secao-perfil__lista__item">
+                                        <img src="/img/empresa.svg" alt="">
+                                        <h2 class="secao-perfil__lista__titulo">Empresa</h2>
+                                    </li>
+                                    <li class="secao-perfil__lista__item">
+                                        <img src="/img/instituicao.svg" alt="">
+                                        <h2 class="secao-perfil__lista__titulo">Instituição de ensino</h2>
+                                    </li>
+                                </ul>    
+                            </div>
+                        </div>
+                    </div>    
+            </section>
+
+            <section class="secao-destaques">
+                <h2 class="secao-destaques__titulo">Destaques</h2>
+                <div class="secao-destaques__conteudo">
+                    <div class="secao-destaques__card">
+                        <div>
+                            <h2 class="secao-destaques__publicacao__titulo">Publicação</h2>
+                            <p class="secao-destaques__publicacao__legenda">Legenda da primeira publicaçã...</p>
+                            <img src="/img/publicacao-primeira.svg" alt="">
+                        </div>    
+                        <div class="secao-destaques__interacoes">
+                            <img src="/img/reacoes.svg" alt="">
+                            <p class="secao-destaques__interacoes__curtidas">124</p>
+                            <p class="secao-destaques__interacoes__comentarios">5 comentários</p>
+                        </div>
+                    </div>
+                    <div class="secao-destaques__card">
+                        <div>
+                            <h2 class="secao-destaques__publicacao__titulo">Publicação</h2>
+                            <p class="secao-destaques__publicacao__legenda">Legenda da segunda publicaçã...</p>
+                            <img src="/img/publicacao-segunda.svg" alt="">
+                        </div>    
+                        <div class="secao-destaques__interacoes">
+                            <img src="/img/reacoes.svg" alt="">
+                            <p class="secao-destaques__interacoes__curtidas">124</p>
+                            <p class="secao-destaques__interacoes__comentarios">5 comentários</p>
+                        </div>
+                    </div>
+                    <div class="secao-destaques__card">
+                        <div>
+                            <h2 class="secao-destaques__publicacao__titulo">Publicação</h2>
+                            <p class="secao-destaques__publicacao__legenda">Legenda da terceira publicaçã...</p>
+                            <img src="/img/publicacao-terceira.svg" alt="">
+                        </div>    
+                        <div class="secao-destaques__interacoes">
+                            <img src="/img/reacoes.svg" alt="">
+                            <p class="secao-destaques__interacoes__curtidas">124</p>
+                            <p class="secao-destaques__interacoes__comentarios">5 comentários</p>
+                        </div>
+                    </div>      
+                </div>
+            </section>  
+
+            <section class="secao-atividades">
+                <div>
+                    <h2 class="secao-atividades__titulo">Atividades</h2>
+                    <span class="secao-atividades__seguidores">300 seguidores</span>
+                    <div class="secao-atividades__pessoa">
+                        <span class="secao-atividades__autor">Nome Sobrenome publicou isso</span>
+                        <span class="secao-atividades__pontinho">•</span>
+                        <span class="secao-atividades__tempo">1 sem</span>
+                    </div>
+                    <div class="secao-atividades__publicacao">
+                        <img src="/img/um.atividades.svg" alt="">
+                        <p  class="secao-atividades__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                    </div>
+                    <div class="secao-atividades__reacoes">
+                        <img src="/img/reacoes.svg" alt="">
+                        <span class="secao-atividades__curtidas">124</span>
+                        <span class="secao-atividades__comentarios">5 comentários</span>
+                    </div>
+                    <hr class="secao-atividades__linha">
+                    <div>
+                        <div class="secao-atividades__pessoa-dois">
+                            <span class="secao-atividades__autor">Nome Sobrenome publicou isso</span>
+                            <span class="secao-atividades__pontinho">•</span>
+                            <span class="secao-atividades__tempo">1 sem</span>
+                        </div>
+                        <div class="secao-atividades__publicacao">
+                            <img src="/img/dois-atividades.svg" alt="">
+                            <p  class="secao-atividades__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                        </div>
+                        <div class="secao-atividades__reacoes">
+                            <img src="/img/reacoes.svg" alt="">
+                            <span class="secao-atividades__curtidas">124</span>
+                            <span class="secao-atividades__comentarios">5 comentários</span>
+                        </div>
+                </div>
+                    <hr class="secao-atividades__linha-final">
+                    <a class="secao-atividades__mais" href="#">Exibir todas as atividades</a>
+            </section>
+
+            <section class="secao-sobre">
+                <h2 class="secao-sobre__titulo">Sobre</h2>
+                <p class="secao-sobre__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </section>
+
+            <section class="secao-experiencias">
+                <div class="secao-experiencias__div">
+                    <h2 class="secao-experiencias__titulo">Experiências</h2>
+                    <div class="secao-experiencias__sobre">
+                        <div>
+                            <img src="/img/secao-exp.svg" alt="">
+                        </div>
+                        <div class="secao-experiencias__empresa">
+                            <h3 class="secao-experiencias__empresa__nome">Empresa</h3>
+                            <span class="secao-experiencias__empresa__tempo">1 a 7 m</span>
+                        </div>
+                    </div>
+                    <ul class="secao-experiencias__lista">
+                        <li class="secao-experiencias__itens">
+                            <h4 class="secao-experiencias__itens__cargo">Fullstack Developer</h4>
+                            <span class="secao-experiencias__itens__periodo">Tempo integral</span>
+                            <span class="secao-experiencias__itens__tempo">jan de 2022 - o momento • 5 meses</span>
+                            <span class="secao-experiencias__itens__lugar">Cidade, estado e país</span>
+                        </li>
+                        <li class="secao-experiencias__itens">
+                            <h4 class="secao-experiencias__itens__cargo">Fullstack Developer (JR)</h4>
+                            <span class="secao-experiencias__itens__periodo">Tempo integral</span>
+                            <span class="secao-experiencias__itens__tempo">jun de 2021 - jan de 2022 • 8 meses</span>
+                            <span class="secao-experiencias__itens__lugar">Cidade, estado e país</span>
+                        </li>
+                        <li class="secao-experiencias__itens">
+                            <h4 class="secao-experiencias__itens__cargo">Front-end Developer</h4>
+                            <span class="secao-experiencias__itens__periodo">Tempo integral</span>
+                            <span class="secao-experiencias__itens__tempo">jan de 2021 - jun de 2021 • 6 meses</span>
+                            <span class="secao-experiencias__itens__lugar">Cidade, estado e país</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="secao-formacao">
+                <h2 class="secao-formacao__titulo">Formação acadêmica</h2>
+                <div class="secao-formacao__conteudo">
+                    <div>
+                        <img src="img/formacao.svg" alt="">
+                    </div>
+                    <div class="secao-formacao__sobre">
+                        <h3 class="secao-formacao__sobre__titulo">Instituição de ensino</h3>
+                        <h4 class="secao-formacao__sobre__subtitulo">Nome do curso</h4>
+                        <span class="secao-formacao__sobre__ano">2015 a 2019</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secao-idiomas">
+                <h2 class="secao-idiomas__titulo">Idiomas</h2>
+                <div>
+                    <h3 class="secao-idiomas__idioma">Português</h3>
+                    <span class="secao-idiomas__nivel">Fluente ou nativo</span>
+                </div>
+                <hr class="secao-idiomas__linha">
+                <div>
+                    <h3 class="secao-idiomas__idioma">Inglês</h3>
+                    <span class="secao-idiomas__nivel">Intermediário</span>
+                </div>
+            </section>
+
+            </div>
+            <div class="right-column">
+
+            <section class="secao-sugestoes">
+                <h2 class="secao-sugestoes__titulo">As pessoas também viram</h2>
+                <nav class="secao-sugestoes__conteudo">
+                    <div>
+                        <div class="secao-sugestoes__pessoas"> 
+                            <div class="secao-sugestoes__foto">
+                                <img src="/img/primeira-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-sugestoes__nome">Nome e sobrenome</h2>
+                                <p class="secao-sugestoes__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                            </div>  
+                            <button class="secao-sugestoes__botao">Enviar Mensagem</button>
+                        </div>  
+                    <div>
+                        <div class="secao-sugestoes__pessoas"> 
+                            <div class="secao-sugestoes__foto">
+                                <img src="/img/segunda-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-sugestoes__nome">Nome e sobrenome</h2>
+                                <p class="secao-sugestoes__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div> 
+                        <button class="secao-sugestoes__botao">Enviar Mensagem</button> 
+                    </div>
+                    <div>
+                        <div class="secao-sugestoes__pessoas"> 
+                            <div class="secao-sugestoes__foto">
+                                <img src="/img/terceira-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-sugestoes__nome">Nome e sobrenome</h2>
+                                <p class="secao-sugestoes__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>  
+                        <button class="secao-sugestoes__botao">Enviar Mensagem</button>
+                    </div>    
+                    <div>
+                        <div class="secao-sugestoes__pessoas"> 
+                            <div class="secao-sugestoes__foto">
+                                <img src="/img/quarta-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-sugestoes__nome">Nome e sobrenome</h2>
+                                <p class="secao-sugestoes__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>  
+                        <button class="secao-sugestoes__botao">Enviar Mensagem</button>
+                    </div>
+                    <div>
+                        <div class="secao-sugestoes__pessoas"> 
+                            <div class="secao-sugestoes__foto">
+                                <img src="/img/quinta-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-sugestoes__nome">Nome e sobrenome</h2>
+                                <p class="secao-sugestoes__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>  
+                        <button class="secao-sugestoes__botao">Enviar Mensagem</button>
+                    </div>
+                </nav>
+            </section>
+
+            <section class="secao-conhecidos">
+                <h2 class="secao-conhecidos__titulo">Pessoas que talvez você conheça</h2>
+                <nav class="secao-conhecidos__conteudo">
+                    <div>
+                        <div class="secao-conhecidos__pessoas"> 
+                            <div class="secao-conhecidos__foto">
+                                <img src="/img/primeira-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-conhecidos__nome">Nome e sobrenome</h2>
+                                <p class="secao-conhecidos__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>    
+                        <button class="secao-conhecidos-botao">Conectar</button>
+                    </div>   
+                    <div>
+                        <div class="secao-conhecidos__pessoas"> 
+                            <div class="secao-conhecidos__foto">
+                                <img src="/img/segunda-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-conhecidos__nome">Nome e sobrenome</h2>
+                                <p class="secao-conhecidos__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>
+                        <button class="secao-conhecidos-botao">Conectar</button> 
+                    </div>
+                    <div>
+                        <div class="secao-conhecidos__pessoas"> 
+                            <div class="secao-conhecidos__foto">
+                                <img src="/img/terceira-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-conhecidos__nome">Nome e sobrenome</h2>
+                                <p class="secao-conhecidos__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>  
+                        <button class="secao-conhecidos-botao">Conectar</button>
+                    </div>    
+                    <div>
+                        <div class="secao-conhecidos__pessoas"> 
+                            <div class="secao-conhecidos__foto">
+                                <img src="/img/quarta-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-conhecidos__nome">Nome e sobrenome</h2>
+                                <p class="secao-conhecidos__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>  
+                        <button class="secao-conhecidos-botao">Conectar</button>
+                    </div>
+                    <div>
+                        <div class="secao-conhecidos__pessoas"> 
+                            <div class="secao-conhecidos__foto">
+                                <img src="/img/quinta-pessoa.svg" alt="">
+                            </div>                 
+                            <div>
+                                <h2 class="secao-conhecidos__nome">Nome e sobrenome</h2>
+                                <p class="secao-conhecidos__cargo">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                            </div>
+                        </div>  
+                        <button class="secao-conhecidos-botao">Conectar</button>
+                    </div>
+                </nav>
+            </section>
+        
+            </div>
+        </main>    
+    </body>
+</html>

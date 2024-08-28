@@ -1,0 +1,88 @@
+.cabecalho {
+    position: absolute;      
+    background-color: #1B2226;
+    display: flex; 
+    align-items: center;
+    width: 100%; 
+    min-width: 70rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 8px 150px;
+    width: 100%;
+    max-width: 1200px; 
+    box-sizing: border-box;
+}
+
+.cabecalho-pesquisa {
+    margin: 0px 130px 0 8px;
+    background: #38434F;
+    width: 280px;
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    background-image: url('/img/lupa.svg');
+    background-size: 17.49px 17.49px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho-pesquisa::placeholder {
+    padding-left: 40px;
+    color: #ffffff;
+    opacity: 90%;
+}
+
+.cabecalho-pesquisa:not(:placeholder-shown) {
+    background-image: none;
+}
+
+.cabecalho-lista {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-lista__item {
+    padding-right: 33px;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho-icone {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.cabecalho-icone__nome {
+    color: #ffffff;
+    opacity: 90%;
+}
+
+.cabecalho-icone img {
+    width: 19px; 
+    height: 19px; 
+}
+
+
+.linha {
+    margin: 0 0 0 25rem;
+    position: absolute;
+    color: #ffffff;
+    opacity: 60%;
+    height: 100%;
+}

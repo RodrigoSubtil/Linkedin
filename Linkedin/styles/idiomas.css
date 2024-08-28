@@ -1,0 +1,41 @@
+.secao-idiomas {
+    background-color: #1B2226;
+    width: 780px;
+    height: 178px;
+    border-radius: 16px;
+}
+
+.secao-idiomas__titulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 90%;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.secao-idiomas__idioma {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.secao-idiomas__nivel {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 60%;
+    padding-left: 20px;
+}
+
+.secao-idiomas__linha {
+    width: 710px;
+    border: 1px 0px 0px 0px;
+    color: #FFFFFF99;
+    opacity: 60%;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}

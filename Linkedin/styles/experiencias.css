@@ -1,0 +1,124 @@
+.secao-experiencias {
+    width: 780px;
+    height: 358px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color: #1B2226;
+}
+
+.secao-experiencias__div {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.secao-experiencias__titulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 90%;
+    padding-bottom: 12px;
+}
+
+.secao-experiencias__sobre {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.secao-experiencias__empresa {
+    padding-left: 10px;
+}
+
+.secao-experiencias__empresa__nome {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 90%;
+    padding-bottom: 3px;
+}
+
+.secao-experiencias__empresa__tempo {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+.secao-experiencias__lista {
+    list-style: none; 
+    padding-left: 0;
+    position: relative; 
+    margin: 0;
+}
+
+.secao-experiencias__itens {
+    position: relative;
+    padding-left: 30px; 
+    margin-bottom: 12px; 
+}
+
+.secao-experiencias__itens::before {
+    content: "";
+    position: absolute;
+    top:  0; 
+    left: 15px;
+    width: 10px; 
+    height: 10px; 
+    background-color: #D9D9D9; 
+    border-radius: 50%; 
+    z-index: 1; 
+}
+
+.secao-experiencias__itens::after {
+    content: "";
+    position: absolute;
+    top: 18px; 
+    left: 19px; 
+    width: 1px; 
+    height: 50px; 
+    background-color: #D9D9D9; 
+    z-index: 0; 
+}
+
+.secao-experiencias__itens__cargo {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 90%;
+    padding-bottom: 2px;
+    padding-left: 29px;
+}
+
+.secao-experiencias__itens span {
+    display: block; 
+}
+
+.secao-experiencias__itens__periodo {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 90%;
+    padding-bottom: 2px;
+    padding-left: 29px;
+}
+
+.secao-experiencias__itens__tempo {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 60%;
+    padding-bottom: 4px;
+    padding-left: 29px;
+}
+
+.secao-experiencias__itens__lugar {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 60%;
+    padding-left: 29px;
+}
+

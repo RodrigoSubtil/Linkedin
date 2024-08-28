@@ -1,0 +1,48 @@
+.secao-formacao {
+    width: 762px;
+    height: 105px;
+    border-radius: 16px;
+    background-color: #1B2226;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.secao-formacao__titulo {
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: 90%;
+}
+
+.secao-formacao__conteudo {
+    display: flex;
+}
+
+.secao-formacao__sobre {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.secao-formacao__sobre__titulo {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 90%;
+    color: #ffffff;
+    padding-bottom: 3px;
+}
+
+.secao-formacao__sobre__subtitulo {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 90%;
+    color: #ffffff;
+    padding-bottom: 3px;
+}
+
+.secao-formacao__sobre__ano {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 60%;
+    color: #ffffff;
+}

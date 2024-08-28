@@ -1,0 +1,24 @@
+.secao-sobre {
+    width: 780px;
+    height: 134px;
+    border-radius: 16px;
+    background-color: #1B2226; 
+}
+
+.secao-sobre__titulo {
+    padding-top: 22px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 90%;
+}
+
+.secao-sobre__paragrafo {
+    padding-top: 17px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 46rem;
+}

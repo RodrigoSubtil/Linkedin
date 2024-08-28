@@ -1,0 +1,39 @@
+<section>
+                <div>
+                    <img src="/img/capa.svg" alt=""> 
+                </div>      
+                <div class="secao-perfil__foto">
+                    <img src="/img/perfil.svg" alt="Foto de Perfil" class="perfil-foto">
+                </div>                
+                <div class="secao-perfil__conteudo">                       
+                    <div>
+                        <h1 class="secao-perfil__nome">Nome Sobrenome</h1>
+                        <h2 class="secao-perfil__subtitulo">Desenvolvedora | HTML | CSS | Typescript | Node</h2>
+                        <span class="secao-perfil__rashtag">Fala sobre #javascript, #frontend, #reactjs, e #backend</span>
+                        <div class="secao-perfil__informacoes">
+                            <span class="secao-perfil__informacoes__lugar">Cidade, estado e país</span>
+                            <span class="secao-perfil__informacoes__pontinho">•</span>
+                            <span class="secao-perfil__informacoes__contato">informações de contato</span>
+                        </div>
+                        <div class="secao-perfil__informacoes">
+                            <span class="secao-perfil__informacoes__conexoes">300 seguidores</span>
+                            <span class="secao-perfil__informacoes__pontinho">•</span>
+                            <span class="secao-perfil__informacoes__conexoes">250 conexões</span>
+                        </div>
+                        <div class="secao-perfil__botoes">
+                            <a class="secao-perfil__botoes__mensagem" href="#">Mensagem</a>
+                            <a class="secao-perfil__botoes__mais" href="#">Mais</a>
+                        </div>
+                    </div>    
+                    <ul class="secao-perfil__lista">
+                        <li class="secao-perfil__lista__item">
+                            <img src="/img/empresa.svg" alt="">
+                            <h2>Empresa</h2>
+                        </li>
+                        <li class="secao-perfil__lista__item">
+                            <img src="/img/instituicao.svg" alt="">
+                            <h2>Instituição de ensino</h2>
+                        </li>
+                    </ul>                     
+                </div>  
+            </section>

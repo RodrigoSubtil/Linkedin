@@ -1,0 +1,112 @@
+.secao-atividades {
+    background-color: #1B2226;
+    width: 780px;
+    height: 371px;
+    border-radius: 16px;
+    padding-top: 15px;
+}
+
+.secao-atividades__titulo {
+    color: #FFFFFFE5;
+    opacity: 90%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    padding-left: 21px;
+}
+
+.secao-atividades__seguidores {
+    color: #70B5F9;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 21px;
+}
+
+.secao-atividades__pessoa {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+}
+
+.secao-atividades__pessoa-dois {
+    padding-bottom: 10px;
+    padding-left: 21px;
+}
+
+.secao-atividades__tempo,
+.secao-atividades__autor {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+.secao-atividades__pontinho {
+    color: #FFFFFF;
+    opacity: 60%;
+    font-size: 9px;
+}
+
+.secao-atividades__publicacao {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    max-width: 46rem;
+    padding-left: 21px;
+}
+
+.secao-atividades__paragrafo {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.secao-atividades__reacoes {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+
+.secao-atividades__curtidas {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.secao-atividades__comentarios {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 60%;
+    color: #ffffff;
+    margin-left: auto; 
+    text-align: end; 
+    padding-right: 23px;
+}
+
+.secao-atividades__linha {
+    width: 734px;
+    border: 1px 0px 0px 0px;
+    color: #FFFFFF99;
+    opacity: 60%;
+}
+
+.secao-atividades__linha-final {
+    color: #FFFFFF99; 
+    opacity: 60%; 
+}
+
+.secao-atividades__mais {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 60%;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 9px;
+}

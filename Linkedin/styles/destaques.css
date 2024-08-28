@@ -1,0 +1,80 @@
+.secao-destaques {
+    background-color: #1B2226;
+    width: 780px;
+    height: 312px;
+    border-radius: 16px;
+}
+
+.secao-destaques__titulo {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+.secao-destaques__conteudo {
+    display: flex;
+    padding-top: 13px;
+    padding-left: 13px;
+    gap: 16px;
+}
+
+.secao-destaques__card {
+    background: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.6); 
+    color: #ffffff;
+    width: 238px;
+    height: 221px;
+    border-radius: 8px;
+    padding-top: 17px;
+}
+
+.secao-destaques__publicacao__titulo {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 60%;
+    padding-left: 13px;
+    padding-bottom: 7px;
+}
+
+.secao-destaques__publicacao__legenda {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 90%;
+    padding-left: 13px;
+    padding-bottom: 7px;
+}
+
+.secao-destaques__interacoes {
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+
+.secao-destaques__interacoes__curtidas {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 60%;
+    padding-left: 5px;
+}
+
+.secao-destaques__interacoes__comentarios {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 60%;   
+    margin-left: auto; 
+    text-align: end; 
+    padding-right: 3px;
+}
